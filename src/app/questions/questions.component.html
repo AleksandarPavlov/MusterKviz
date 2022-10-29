@@ -1,0 +1,15 @@
+
+
+        <div class="card text-center" id ="card">
+            <img src="https://ak.picdn.net/shutterstock/videos/1034681573/thumb/10.jpg?ip=x480" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Question {{i + 1}}</h5>
+              <p class="card-text">{{questions1[i]}}</p>
+              <a  class="btn btn-danger" id = "btn1" (click)="No()">Ne</a>
+              <a  class="btn btn-success" id = "btn2" (click)="Yes()"  >Da</a>
+            </div>
+          
+     </div>
+     <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-label="Success striped example" [style.width]="i * 100/end +'%'" [attr.aria-valuenow]="i" [attr.aria-valuemin]="1" [attr.aria-valuemax]="end"></div>
+      </div>

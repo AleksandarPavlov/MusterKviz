@@ -1,0 +1,17 @@
+#card{
+    border: none;
+}
+#btn1{
+    margin: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+#btn2{
+    margin: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.card-text{
+    margin-top: 6%;
+}
